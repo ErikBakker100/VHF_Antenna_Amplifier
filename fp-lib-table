@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Package-SOT)(type KiCad)(uri ${NAS_LIB}/kicad-footprints/Package-SOT.pretty)(options "")(descr ""))
+)
