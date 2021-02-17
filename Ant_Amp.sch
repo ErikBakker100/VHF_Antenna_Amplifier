@@ -52,7 +52,7 @@ U 1 1 6029B419
 P 2600 3150
 F 0 "L1" H 2550 3350 50  0000 L CNN
 F 1 "L-Tap" H 2653 3105 50  0001 L CNN
-F 2 "Inductor:L_6T_11mm_intdiam6.3mm_1mm_wire_tap1.5TL" H 2600 3150 50  0001 C CNN
+F 2 "Inductor:L_6T_11mm_intdiam6.3mm_1mm_wire_tap4.5TR" H 2600 3150 50  0001 C CNN
 F 3 "~" H 2600 3150 50  0001 C CNN
 	1    2600 3150
 	1    0    0    -1  
@@ -401,12 +401,6 @@ F 3 " ~" H 5850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3000 5800 3000
-Wire Wire Line
-	5350 3000 5650 3000
-Connection ~ 5350 3000
-Connection ~ 5650 3000
-Wire Wire Line
 	5850 3200 5850 3300
 Connection ~ 5850 3300
 Wire Wire Line
@@ -462,4 +456,7 @@ $EndComp
 Wire Wire Line
 	6150 3300 6000 3300
 Connection ~ 6000 3300
+Wire Wire Line
+	5650 3000 5350 3000
+Connection ~ 5350 3000
 $EndSCHEMATC
