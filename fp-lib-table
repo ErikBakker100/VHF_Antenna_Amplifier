@@ -1,7 +1,4 @@
 (fp_lib_table
-<<<<<<< HEAD
-  (lib (name Inductor)(type KiCad)(uri ${NAS_LIB}/kicad-footprints/Inductor.pretty)(options "")(descr ""))
-=======
->>>>>>> c07ec2f002d561182c822297bf0e22ada2b31c05
   (lib (name Package-SOT)(type KiCad)(uri ${NAS_LIB}/kicad-footprints/Package-SOT.pretty)(options "")(descr ""))
+  (lib (name Inductor)(type KiCad)(uri ${NAS_LIB}/kicad-footprints/Inductor.pretty)(options "")(descr ""))
 )
